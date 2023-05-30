@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Z'mah Cookery</title>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="style.css"><!-- Link to external stylesheet -->
+  <style>
+    /* Sticky Navbar */
+    .w3-sticky {
+      position: sticky;
+      top: 0;
+      z-index: 100;
+    }
+
+    /* Styling for restaurant name */
+    .restaurant-name {
+      font-size: 48px;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+<!-- Navbar -->
+<nav class="w3-bar w3-purple w3-sticky">
+  <a href="#home" class="w3-bar-item w3-button w3-mobile">Home</a>
+  <a href="#menu" class="w3-bar-item w3-button w3-mobile">Menu</a>
+  <div class="w3-bar-item w3-mobile">
+    <h1 class="w3-text-white w3-center restaurant-name">Z'MAH COOKERY</h1>
+  </div>
+  <a href="#about" class="w3-bar-item w3-button w3-mobile">About</a>
+  <a href="#contact" class="w3-bar-item w3-button w3-mobile">Contact</a>
+</nav>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
+  <img class="w3-image" src="/img/fruit.jpg" alt="Z'MAH! COOKERY" width="1500" height="800">
+  <div class="w3-display-middle w3-margin-top w3-center"></div>
+</header>
+
+<!-- Page content -->
+<div class="w3-content w3-padding" style="max-width:1564px">
+
+  <div class="w3-container w3-padding-32" id="menu">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Menu</h3>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Afang Soup</div>
+          <img src="/img/Afang soup.png" alt="Afang soup" style="width:100%">
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Egusi</div>
+          <img src="/img/Egusi.png" alt="Egusi" style="width:100%">
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Moi moi</div>
+          <img src="/img/moi moi & fish.png" alt="Moi moi" style="width:100%">
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Jollof</div>
+          <img src="/img/jollof and veggies with goat meat.png" alt="Jollof" style="width:100%">
+        </div>
+      </div>
+    </div>
+    <div class="w3-row-padding">
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Akara Balls</div>
+          <img src="/img/Akara balls.png" alt="Akara Balls" style="width:100%">
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Ebah & Soup</div>
+          <img src="/img/Eba and soup.png" alt="Ebah & Soup" style="width:100%">
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">kPonmon</div>
+          <img src="/img/pepper ponmon.png" alt="kPonmon" style="width:100%">
+        </div>
+      </div>
+      <div class="w3-col l3 m6 w3-margin-bottom">
+        <div class="w3-display-container">
+          <div class="w3-display-topleft w3-black w3-padding">Grilled Meat</div>
+          <img src="/img/Naija Grilled meat.png" alt="Grilled Meat" style="width:100%">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- About Section -->
+  <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">About</h3>
+    <p>Welcome to Z'mah Cookery, a culinary haven where your unique palate takes center stage. Indulge in an array of delectable dishes crafted to cater to every taste bud. From authentic Nigerian tribal delicacies to nourishing snacks and delightful beverages, we offer a diverse menu that satisfies your cravings. Our food sales come in convenient portions, perfect for storing and enjoying at your convenience. Additionally, we are delighted to cater for small outings, ensuring a memorable dining experience. Join us and embark on a culinary journey that celebrates flavor, culture, and exceptional service.</p>
+  </div>
+
+  <!-- Contact Section -->
+  <div class="w3-container w3-padding-32" id="contact">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Contact</h3>
+    <p>Lets get in touch and talk about your next project.</p>
+    <form action="mailto:zmahcookery@gmail.com" method="POST" enctype="text/plain">
+      <input class="w3-input w3-border" type="text" placeholder="Name" required name="Name">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Email" required name="Email">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Subject" required name="Subject">
+      <input class="w3-input w3-section w3-border" type="text" placeholder="Comment" required name="Comment">
+      <button class="w3-button w3-black w3-section" type="submit" onclick="showResponse()">SEND MESSAGE</button>
+    </form>
+    <p id="response" style="display:none;">Your mail has been sent.</p>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-black w3-padding-16">
+  <p>Powered by <a href="github.com/Akighir-Aondohemba/" title="github" target="_blank" class="w3-hover-text-green">Tech Tactics.</a></p>
+</footer>
+
+<script>
+  // Toggle between showing and hiding the navigation menu on small screens
+  function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+      x.className += " w3-show";
+    } else {
+      x.className = x.className.replace(" w3-show", "");
+    }
+  }
+
+  // Show response message on form submission
+  function showResponse() {
+    var response = document.getElementById("response");
+    response.style.display = "block";
+  }
+</script>
+</body>
+</html>
+
+
+
+
